@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style-rtl.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-content"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mr-auto mt-4 mt-md-0">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">الصفحة الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">معلومات عنا</a>
+            </li>
+            <li class="nav-item dropdown" data-toggle="dropdown">
+              <a href="#" class="nav-link dropdown-toggle">الصفحات</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">الصفحة1</a>
+                <a href="#" class="dropdown-item">الصفحة2</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">الصفحة3</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a href="blog.html" class="nav-link">المدونة</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Intro -->
+    <div class="jumbotron py-5">
+      <div class="container d-flex justify-content-between">
+        <h2 class="mb-0">المدونة</h2>
+        <p class="text-muted mb-0">
+          <a href="index.html">الصفحة الرئيسية</a> /
+          <a href="blog.html">المدونة</a> / تفاصيل المقال
+        </p>
+      </div>
+    </div>
+    <!-- Articles -->
+    <section class="article-details pd-y">
+      <div class="container">
+        <div class="row">
+          <div class="article-details-box col-12 col-lg-9">
+            <div class="article-details-content border p-4 mb-3">
+              <div class="img"></div>
+              <h3 class="title mt-3">عنوان المدونة يذهب إلى هنا</h3>
+              <div class="date text-muted mb-3">24 مايو 2023</div>
+              <article class="desc">
+                <p class="text-secondary">
+                  من المهم الاهتمام بالألم نفسه ، وسيتبعه نمو المريض ، ولكن في
+                  نفس الوقت سيحدث الكثير من العمل والألم. للوصول إلى أدق
+                  التفاصيل ، لا ينبغي لأحد أن يمارس أي نوع من العمل ما لم يستفيد
+                  منه. لا تغضب من الألم في التوبيخ في اللذة لأنه يريد أن يكون
+                  شعرة من الألم على أمل ألا يكون هناك تكاثر.
+                </p>
+                <p class="text-secondary">
+                  ما لم يعمهم الشهوة ، لا يخرجون ؛ إنهم مخطئون الذين يتخلون عن
+                  واجباتهم ويلين قلوبهم ، هذا هو الكدح. ولكن لكي ترى من أين كل
+                  هذا الخطأ المولود لأولئك الذين يتهمون اللذة وألم المديح ،
+                  سأفتح الأمر برمته ، وأشرح نفس الأشياء التي قالها مكتشف الحقيقة
+                  ، كما كان ، مهندس حياة سعيدة. فلا أحد يحتقر أو يكره أو يهرب من
+                  اللذة لأنها متعة ، ولكن لأن الآلام الشديدة تنجم عن أولئك الذين
+                  لا يعرفون كيف يتبعون اللذة بالعقل. علاوة على ذلك ، لا يوجد أي
+                  شخص ، لأنه يحب الألم ، ويلاحقه ، ويريد الحصول عليه ، ولكن لأن
+                  مثل هذه الأوقات لا تحدث أبدًا حيث يبحث عن بعض المتعة العظيمة
+                  من خلال المخاض والألم.
+                </p>
+                <p class="text-secondary">
+                  من المهم الاهتمام بالألم نفسه ، وسيتبعه نمو المريض ، ولكن في
+                  نفس الوقت سيحدث الكثير من العمل والألم. للوصول إلى أدق
+                  التفاصيل ، لا ينبغي لأحد أن يمارس أي نوع من العمل ما لم يستفيد
+                  منه. لا تغضب من الألم في التوبيخ في اللذة لأنه يريد أن يكون
+                  شعرة من الألم على أمل ألا يكون هناك تكاثر.
+                </p>
+                <p class="text-secondary">
+                  ما لم يعمهم الشهوة ، لا يخرجون ؛ إنهم مخطئون الذين يتخلون عن
+                  واجباتهم ويلين قلوبهم ، هذا هو الكدح. ولكن لكي ترى من أين كل
+                  هذا الخطأ المولود لأولئك الذين يتهمون اللذة وألم المديح ،
+                  سأفتح الأمر برمته ، وأشرح نفس الأشياء التي قالها مكتشف الحقيقة
+                  ، كما كان ، مهندس حياة سعيدة. فلا أحد يحتقر أو يكره أو يهرب من
+                  اللذة لأنها متعة ، ولكن لأن الآلام الشديدة تنجم عن أولئك الذين
+                  لا يعرفون كيف يتبعون اللذة بالعقل. علاوة على ذلك ، لا يوجد أي
+                  شخص ، لأنه يحب الألم ، ويلاحقه ، ويريد الحصول عليه ، ولكن لأن
+                  مثل هذه الأوقات لا تحدث أبدًا حيث يبحث عن بعض المتعة العظيمة
+                  من خلال المخاض والألم.
+                </p>
+                <p class="text-secondary">
+                  ما لم يعمهم الشهوة ، لا يخرجون ؛ إنهم مخطئون الذين يتخلون عن
+                  واجباتهم ويلين قلوبهم ، هذا هو الكدح. ولكن لكي ترى من أين كل
+                  هذا الخطأ المولود لأولئك الذين يتهمون اللذة وألم المديح ،
+                  سأفتح الأمر برمته ، وأشرح نفس الأشياء التي قالها مكتشف الحقيقة
+                  ، كما كان ، مهندس حياة سعيدة. فلا أحد يحتقر أو يكره أو يهرب من
+                  اللذة لأنها متعة ، ولكن لأن الآلام الشديدة تنجم عن أولئك الذين
+                  لا يعرفون كيف يتبعون اللذة بالعقل. علاوة على ذلك ، لا يوجد أي
+                  شخص ، لأنه يحب الألم ، ويلاحقه ، ويريد الحصول عليه ، ولكن لأن
+                  مثل هذه الأوقات لا تحدث أبدًا حيث يبحث عن بعض المتعة العظيمة
+                  من خلال المخاض والألم.
+                </p>
+                <p class="text-secondary">
+                  ما لم يعمهم الشهوة ، لا يخرجون ؛ إنهم مخطئون الذين يتخلون عن
+                  واجباتهم ويلين قلوبهم ، هذا هو الكدح. ولكن لكي ترى من أين كل
+                  هذا الخطأ المولود لأولئك الذين يتهمون اللذة وألم المديح ،
+                  سأفتح الأمر برمته ، وأشرح نفس الأشياء التي قالها مكتشف الحقيقة
+                  ، كما كان ، مهندس حياة سعيدة. فلا أحد يحتقر أو يكره أو يهرب من
+                  اللذة لأنها متعة ، ولكن لأن الآلام الشديدة تنجم عن أولئك الذين
+                  لا يعرفون كيف يتبعون اللذة بالعقل. علاوة على ذلك ، لا يوجد أي
+                  شخص ، لأنه يحب الألم ، ويلاحقه ، ويريد الحصول عليه ، ولكن لأن
+                  مثل هذه الأوقات لا تحدث أبدًا حيث يبحث عن بعض المتعة العظيمة
+                  من خلال المخاض والألم.
+                </p>
+              </article>
+            </div>
+            <section class="comments mt-5">
+              <h4>3 تعليقات على هذا المنشور</h4>
+              <div class="user-comments-card d-flex border-bottom mt-5 pb-4">
+                <img
+                  class="rounded-circle ml-0 ml-md-3"
+                  src="img/profile-img-1.jpg"
+                  alt="User"
+                />
+                <div class="user-info">
+                  <h5 class="username mb-1">نيك ليفر</h5>
+                  <div class="cmnt-date text-muted small">منذ 2 ساعات</div>
+                  <div class="comment-area my-3">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد من النصوص الأخرى.
+                  </div>
+                  <button class="btn btn-outline-warning font-weight-bold px-4">
+                    رد
+                  </button>
+                </div>
+              </div>
+              <div class="user-comments-card d-flex border-bottom mt-4 pb-4">
+                <img
+                  class="rounded-circle ml-0 ml-md-3"
+                  src="img/profile-img-2.jpg"
+                  alt="User"
+                />
+                <div class="user-info">
+                  <h5 class="username mb-1">نيك ليفر</h5>
+                  <div class="cmnt-date text-muted small">منذ 2 ساعات</div>
+                  <div class="comment-area my-3">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد من النصوص الأخرى.
+                  </div>
+                  <button class="btn btn-outline-warning font-weight-bold px-4">
+                    رد
+                  </button>
+                </div>
+              </div>
+              <div class="user-comments-card d-flex border-bottom mt-4 pb-4">
+                <img
+                  class="rounded-circle ml-0 ml-md-3"
+                  src="img/profile-img-3.jpg"
+                  alt="User"
+                />
+                <div class="user-info">
+                  <h5 class="username mb-1">نيك ليفر</h5>
+                  <div class="cmnt-date text-muted small">منذ 6 ساعات</div>
+                  <div class="comment-area my-3">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد من النصوص الأخرى.
+                  </div>
+                  <button class="btn btn-outline-warning font-weight-bold px-4">
+                    رد
+                  </button>
+                </div>
+              </div>
+            </section>
+            <section class="leave-comment mt-5">
+              <h4>اترك تعليقا</h4>
+              <div class="form-row mt-5">
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control bg-light"
+                    placeholder="اسمك *"
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control bg-light"
+                    placeholder="بريدك الالكتروني *"
+                  />
+                </div>
+                <div class="form-group col-12">
+                  <textarea
+                    class="form-control bg-light"
+                    placeholder="رسالة *"
+                  ></textarea>
+                </div>
+                <input
+                  class="btn btn-warning w-100"
+                  type="submit"
+                  value="ارسال التعليق"
+                />
+              </div>
+            </section>
+          </div>
+          <aside class="side col-12 col-lg-3 mt-5 mt-lg-0">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="ابحث هنا" />
+              <div class="input-group-prepend">
+                <button class="btn btn-warning">ابحث</button>
+              </div>
+            </div>
+            <div class="latest-articles border mt-4">
+              <h4 class="border-bottom p-3 text-center">المشاركات الأخيرة</h4>
+              <div class="article-rows p-3">
+                <div class="article-row">
+                  <p class="mb-0">- عنوان المدونه يذهب الى هنا</p>
+                  <span class="text-muted small mr-2">24 مايو 2023</span>
+                </div>
+                <div class="article-row mt-4">
+                  <p class="mb-0">- عنوان المدونه يذهب الى هنا</p>
+                  <span class="text-muted small mr-2">24 مايو 2023</span>
+                </div>
+                <div class="article-row mt-4">
+                  <p class="mb-0">- عنوان المدونه يذهب الى هنا</p>
+                  <span class="text-muted small mr-2">24 مايو 2023</span>
+                </div>
+                <div class="article-row mt-4">
+                  <p class="mb-0">- عنوان المدونه يذهب الى هنا</p>
+                  <span class="text-muted small mr-2">24 مايو 2023</span>
+                </div>
+              </div>
+            </div>
+            <div class="key-words border mt-5">
+              <h4 class="border-bottom p-3 text-center">الكلمات</h4>
+              <div class="words p-3">
+                <span>تثبيت</span>
+                <span>سباك</span>
+                <span>تجديد</span>
+                <span>بناء</span>
+                <span>قبل البناء</span>
+                <span>تثبيت</span>
+                <span>سباك</span>
+                <span>تجديد</span>
+                <span>بناء</span>
+                <span>قبل البناء</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer pd-y text-center text-md-right">
+      <div class="container">
+        <div class="row">
+          <div class="item col-12 col-sm-6 col-md-3 mb-4">
+            <img class="bg-white py-3 px-4" src="img/logo.png" alt="Logo" />
+            <div class="text-white mt-3">نحن مستعدون لمساعدتك دائما.</div>
+            <div class="text-white my-2">للتواصل معنا :</div>
+            <ul class="contact text-muted list-unstyled">
+              <li class="mt-1">الهاتف: + 324-5442-415</li>
+              <li class="mt-1">الفاكس: + 324-5442-415</li>
+              <li class="mt-1">البريد الإلكتروني:</li>
+              <li class="mt-1">support@construction.com</li>
+            </ul>
+          </div>
+          <div class="item col-12 col-sm-6 col-md-3 mb-4">
+            <h4 class="text-white">روابط سريعة</h4>
+            <ul class="list-unstyled">
+              <li class="list-item mt-4">
+                <a href="#" class="list-link">&#8249;&nbsp; بيت</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; عن</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; خدمات</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; المشاريع</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; صالة العرض</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; مدونة</a>
+              </li>
+              <li class="list-item mt-2">
+                <a href="#" class="list-link">&#8249;&nbsp; اتصال</a>
+              </li>
+            </ul>
+          </div>
+          <div class="item col-12 col-sm-6 col-md-3 mb-4">
+            <h4 class="text-white">المنشور الاخير</h4>
+            <div class="boxes mt-4">
+              <div
+                class="box d-flex align-items-center pb-2 border-bottom border-warning"
+              >
+                <img class="ml-3" src="img/news-thumb-1.jpg" alt="News" />
+                <div class="caption-text">
+                  <p class="text-warning small">شركة البناء</p>
+                  <span class="text-muted small">10 يونيو 2023</span>
+                </div>
+              </div>
+              <div
+                class="box d-flex align-items-center pb-2 mt-2 border-bottom border-warning"
+              >
+                <img class="ml-3" src="img/news-thumb-1.jpg" alt="News" />
+                <div class="caption-text">
+                  <p class="text-warning small">شركة البناء</p>
+                  <span class="text-muted small">10 يونيو 2023</span>
+                </div>
+              </div>
+              <div class="box d-flex align-items-center pb-2 mt-2">
+                <img class="ml-3" src="img/news-thumb-1.jpg" alt="News" />
+                <div class="caption-text">
+                  <p class="text-warning small">شركة البناء</p>
+                  <span class="text-muted small">10 يونيو 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item col-12 col-sm-6 col-md-3">
+            <h4 class="text-white">اتصل بنا</h4>
+            <p class="text-muted small my-4">
+              اشترك في النشرة الإخبارية لدينا للحصول على أخبار مهمة وعروض مذهلة
+              ومجارى داخلية:
+            </p>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control w-100"
+                placeholder="اكتب بريدك الالكتروني"
+              />
+              <input
+                type="submit"
+                class="btn btn-warning w-100 mt-2"
+                value="اشترك"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
